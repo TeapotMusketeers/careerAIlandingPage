@@ -16,15 +16,16 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+html,
 body {
   color: rgb(var(--foreground-rgb));
-  background: white  (
+  background: black 
+   /* (
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 @layer utilities {

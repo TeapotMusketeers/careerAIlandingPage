@@ -14,15 +14,19 @@ export default function Home() {
       <Navbar/>
       <SpotlightPreview/>
       <Cta />
+      
       <div className="mt-5 flex flex-col items-center">
           <CountdownTimer />
         </div>
-      
-      <div className="w-full flex justify-center ">
+        <div className="w-full flex justify-center ">
           <FeaturesTab />
         </div>
+
+        <Pricing/>
+      
+     
        
-        {/* <Pricing/> */}
+        
        
       </div>
     </main>

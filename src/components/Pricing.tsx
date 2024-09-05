@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-//import { BackgroundBeams } from "../components/ui/background-beams";
 import { BackgroundGradient } from "../components/ui/background-gradient";
 import { FaCheckCircle } from "react-icons/fa";
 
@@ -10,30 +9,31 @@ function Pricing() {
       title: "Free Version",
       price: "Free",
       features: [
-        "Access to basic features",
-        "Generate up to 30 flashcards per month",
-        "Limited customization options",
-        "Community support",
-        "Basic analytics",
+        "Create and manage your own profile",
+        "Generate customized CVs and cover letters",
+        "Job post parsing with basic extraction",
+        "Access to community support",
       ],
+      comingSoon: true,
     },
     {
       title: "Pro Version",
       price: "$4.99/month",
       features: [
-        "Unlimited flashcard generation",
+        "Create and manage your own profile",
+        "Generate  unlimited  CVs and cover letters",
+        "Advanced job post parsing with NLP",
         "Advanced customization options",
         "Priority customer support",
         "Access to premium templates",
-       "Optimize LinkedIn Profile"
+        "Optimize LinkedIn profile",
+        
       ],
-    //   comingSoon: true,
     },
   ];
 
   return (
-    <div className="relative h-full w-full bg-neutral-950 py-12">
-      {/* <BackgroundBeams /> */}
+    <div className="relative h-full w-full bg-neutral-950 py-12 mt-10">
       <div className="relative z-10">
         <div className="text-center">
           <h1 className="mt-20 md:mt-0 text-5xl md:text-7xl font-bold text-neutral-50">

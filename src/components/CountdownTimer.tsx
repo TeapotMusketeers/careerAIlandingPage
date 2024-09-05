@@ -33,7 +33,7 @@ const CountdownTimer: React.FC = () => {
   }, [targetDate]);
 
   return (
-    <section className="relative bg-gradient-to-b from-midnight-black via-deep-slate-gray to-midnight-black min-h-screen overflow-hidden">
+    <section className="relative bg-gradient-to-b from-midnight-black via-deep-slate-gray to-midnight-black  overflow-hidden">
       {/* Static glow effect */}
       <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
         <div
