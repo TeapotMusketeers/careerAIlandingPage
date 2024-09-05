@@ -5,7 +5,7 @@ import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 const CountdownTimer: React.FC = () => {
-  const targetDate = '2024-09-12T00:00:00'; 
+  const targetDate = '2024-09-08T00:00:00'; 
 
   const calculateTimeLeft = (): TimeLeft => {
     const difference = +new Date(targetDate) - +new Date();
